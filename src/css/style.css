@@ -1,0 +1,38 @@
+body{
+    background-color: #0458a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: relative;
+}
+
+header .logo-switch{
+    position: absolute;
+}
+
+header .nintendo-logo{
+    position: absolute;
+    right: 0;
+}
+
+.principal{
+    margin-top: -10px;
+}
+
+.jogos{
+    position: relative;
+    justify-content: center;
+}
+
+.jogos .personagens{
+    left: -150px;
+    position: absolute;
+}
+
+footer{
+    font-family: "Madimi One", sans-serif;
+}
